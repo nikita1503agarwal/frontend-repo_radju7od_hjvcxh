@@ -1,4 +1,4 @@
-import Demo from "./components/Demo";
+import Layout from "./components/Layout";
 
 function App() {
   return (
@@ -8,11 +8,11 @@ function App() {
         <header className="relative z-10 text-center py-10">
           <img src="/flame-icon.svg" alt="Flames" className="w-16 h-16 mx-auto mb-3" />
           <h1 className="text-4xl font-bold text-white">Book Management System</h1>
-          <p className="text-blue-200">Backend-first API with a simple UI to add and list books</p>
+          <p className="text-blue-200">Manage books, users, carts, checkout, and orders</p>
         </header>
-        <Demo />
+        <Layout />
         <footer className="relative z-10 text-center py-6">
-          <p className="text-blue-300/60 text-sm">Use the interface above to manage books. API base URL comes from VITE_BACKEND_URL.</p>
+          <p className="text-blue-300/60 text-sm">API base URL comes from VITE_BACKEND_URL.</p>
         </footer>
       </div>
     </div>
